@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a121e"/>
+      <stop offset="100%" stop-color="#142845"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fd761a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cardioBg)"/>
+  <!-- Floor line -->
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#334155" stroke-width="3"/>
+  <!-- Treadmills Silhouette Graphics -->
+  <!-- Treadmill 1 -->
+  <polygon points="120,460 260,460 290,410 150,410" fill="#1e293b"/>
+  <rect x="260" y="320" width="16" height="100" rx="4" fill="#334155" transform="rotate(15 260 410)"/>
+  <rect x="230" y="310" width="70" height="18" rx="4" fill="#fd761a"/>
+  <rect x="245" y="270" width="40" height="40" rx="6" fill="#0284c7" opacity="0.8"/>
+  
+  <!-- Treadmill 2 -->
+  <polygon points="340,460 480,460 510,410 370,410" fill="#1e293b"/>
+  <rect x="480" y="320" width="16" height="100" rx="4" fill="#334155" transform="rotate(15 480 410)"/>
+  <rect x="450" y="310" width="70" height="18" rx="4" fill="#fd761a"/>
+  <rect x="465" y="270" width="40" height="40" rx="6" fill="#0284c7" opacity="0.8"/>
+
+  <!-- Treadmill 3 -->
+  <polygon points="560,460 700,460 730,410 590,410" fill="#1e293b"/>
+  <rect x="700" y="320" width="16" height="100" rx="4" fill="#334155" transform="rotate(15 700 410)"/>
+  <rect x="670" y="310" width="70" height="18" rx="4" fill="#fd761a"/>
+  <rect x="685" y="270" width="40" height="40" rx="6" fill="#0284c7" opacity="0.8"/>
+
+  <!-- Heartbeat Line across display -->
+  <path d="M100 200 L250 200 L280 150 L310 240 L340 170 L370 200 L700 200" fill="none" stroke="url(#glow)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Badge -->
+  <rect x="230" y="80" width="340" height="56" rx="28" fill="#0d1c32" stroke="#fd761a" stroke-width="2"/>
+  <text x="400" y="116" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#ffffff" text-anchor="middle" letter-spacing="4">CARDIO &amp; ENDURANCE</text>
+  <text x="400" y="155" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#94a3b8" text-anchor="middle">TOUCHSCREEN HI-PERFORMANCE SUITE</text>
+</svg>

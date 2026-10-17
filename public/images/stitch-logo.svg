@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="gymGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded hexagon / shield tile -->
+  <rect x="8" y="8" width="144" height="144" rx="28" fill="url(#gymGrad)" stroke="#334155" stroke-width="3" />
+  
+  <!-- Subtle inner geometric accent border -->
+  <rect x="18" y="18" width="124" height="124" rx="20" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.3" />
+
+  <!-- Bold athletic 'L' monogram merged with barbell / crown weight elements -->
+  <!-- Barbell Plates Accent at Top -->
+  <rect x="52" y="38" width="10" height="24" rx="3" fill="url(#goldGrad)" />
+  <rect x="98" y="38" width="10" height="24" rx="3" fill="url(#goldGrad)" />
+  <rect x="42" y="44" width="8" height="12" rx="2" fill="#94A3B8" />
+  <rect x="110" y="44" width="8" height="12" rx="2" fill="#94A3B8" />
+  <rect x="58" y="47" width="44" height="6" rx="2" fill="#E2E8F0" />
+  
+  <!-- Stylized Strong Letter 'L' with sharp athletic cut -->
+  <path d="M 54 68 L 74 68 L 74 104 L 108 104 L 108 118 L 54 118 Z" fill="url(#goldGrad)" />
+
+  <!-- Tiny athletic crown/star accent above bar -->
+  <polygon points="80,26 84,33 91,33 86,37 88,44 80,40 72,44 74,37 69,33 76,33" fill="#F59E0B" />
+</svg>

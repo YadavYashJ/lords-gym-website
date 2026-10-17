@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a121e"/>
+      <stop offset="100%" stop-color="#162032"/>
+    </linearGradient>
+    <linearGradient id="orangeAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fd761a"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#fd761a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#spotlight)"/>
+  <!-- Floor Grid Perspective -->
+  <path d="M0 450 L800 450 M0 500 L800 500 M0 550 L800 550" stroke="#1e293b" stroke-width="2"/>
+  <path d="M100 600 L300 450 M250 600 L370 450 M400 600 L400 450 M550 600 L430 450 M700 600 L500 450" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Dumbbell Rack Graphic -->
+  <rect x="150" y="320" width="500" height="15" rx="4" fill="#334155"/>
+  <rect x="180" y="335" width="20" height="115" fill="#1e293b"/>
+  <rect x="600" y="335" width="20" height="115" fill="#1e293b"/>
+  <rect x="150" y="390" width="500" height="15" rx="4" fill="#334155"/>
+
+  <!-- Olympic Dumbbells on top tier -->
+  <!-- DB 1 -->
+  <rect x="210" y="270" width="12" height="45" rx="4" fill="#64748b"/>
+  <rect x="222" y="286" width="30" height="12" fill="#94a3b8"/>
+  <rect x="252" y="270" width="12" height="45" rx="4" fill="#64748b"/>
+  <text x="237" y="296" fill="#0f172a" font-size="8" font-family="sans-serif" font-weight="900" text-anchor="middle">20</text>
+  <!-- DB 2 (Orange Accent) -->
+  <rect x="290" y="260" width="16" height="55" rx="5" fill="url(#orangeAccent)"/>
+  <rect x="306" y="284" width="35" height="14" fill="#cbd5e1"/>
+  <rect x="341" y="260" width="16" height="55" rx="5" fill="url(#orangeAccent)"/>
+  <text x="323" y="295" fill="#ffffff" font-size="9" font-family="sans-serif" font-weight="900" text-anchor="middle">30</text>
+  <!-- DB 3 -->
+  <rect x="385" y="250" width="20" height="65" rx="6" fill="#64748b"/>
+  <rect x="405" y="282" width="40" height="16" fill="#94a3b8"/>
+  <rect x="445" y="250" width="20" height="65" rx="6" fill="#64748b"/>
+  <text x="425" y="294" fill="#0f172a" font-size="10" font-family="sans-serif" font-weight="900" text-anchor="middle">40</text>
+  <!-- DB 4 -->
+  <rect x="495" y="240" width="24" height="75" rx="7" fill="url(#orangeAccent)"/>
+  <rect x="519" y="280" width="45" height="18" fill="#e2e8f0"/>
+  <rect x="564" y="240" width="24" height="75" rx="7" fill="url(#orangeAccent)"/>
+  <text x="541" y="293" fill="#ffffff" font-size="11" font-family="sans-serif" font-weight="900" text-anchor="middle">50</text>
+
+  <!-- Typography Overlay -->
+  <rect x="230" y="100" width="340" height="56" rx="28" fill="#0d1c32" stroke="url(#orangeAccent)" stroke-width="2"/>
+  <text x="400" y="136" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#ffffff" text-anchor="middle" letter-spacing="4">HEAVY FREE WEIGHTS</text>
+  <text x="400" y="180" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#94a3b8" text-anchor="middle">LORD'S GYM • OLYMPIC GRADE FLEET</text>
+</svg>

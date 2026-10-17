@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lockerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091526"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#lockerBg)"/>
+  <!-- Lockers Row -->
+  <g transform="translate(100, 200)">
+    <!-- Locker 1 -->
+    <rect x="0" y="0" width="90" height="260" rx="4" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <rect x="15" y="20" width="60" height="6" rx="2" fill="#475569"/>
+    <rect x="15" y="32" width="60" height="6" rx="2" fill="#475569"/>
+    <circle cx="70" cy="130" r="5" fill="#fd761a"/>
+    <text x="45" y="80" fill="#64748b" font-family="'Inter', sans-serif" font-weight="700" font-size="14" text-anchor="middle">01</text>
+    <!-- Locker 2 -->
+    <rect x="100" y="0" width="90" height="260" rx="4" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <rect x="115" y="20" width="60" height="6" rx="2" fill="#475569"/>
+    <rect x="115" y="32" width="60" height="6" rx="2" fill="#475569"/>
+    <circle cx="170" cy="130" r="5" fill="#fd761a"/>
+    <text x="145" y="80" fill="#64748b" font-family="'Inter', sans-serif" font-weight="700" font-size="14" text-anchor="middle">02</text>
+    <!-- Locker 3 (Selected) -->
+    <rect x="200" y="0" width="90" height="260" rx="4" fill="#1e293b" stroke="#fd761a" stroke-width="3"/>
+    <rect x="215" y="20" width="60" height="6" rx="2" fill="#fd761a"/>
+    <rect x="215" y="32" width="60" height="6" rx="2" fill="#fd761a"/>
+    <circle cx="270" cy="130" r="6" fill="#10b981"/>
+    <text x="245" y="80" fill="#ffffff" font-family="'Inter', sans-serif" font-weight="900" font-size="16" text-anchor="middle">34B</text>
+    <!-- Locker 4 -->
+    <rect x="300" y="0" width="90" height="260" rx="4" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <rect x="315" y="20" width="60" height="6" rx="2" fill="#475569"/>
+    <rect x="315" y="32" width="60" height="6" rx="2" fill="#475569"/>
+    <circle cx="370" cy="130" r="5" fill="#fd761a"/>
+    <text x="345" y="80" fill="#64748b" font-family="'Inter', sans-serif" font-weight="700" font-size="14" text-anchor="middle">04</text>
+    <!-- Locker 5 -->
+    <rect x="400" y="0" width="90" height="260" rx="4" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <rect x="415" y="20" width="60" height="6" rx="2" fill="#475569"/>
+    <rect x="415" y="32" width="60" height="6" rx="2" fill="#475569"/>
+    <circle cx="470" cy="130" r="5" fill="#fd761a"/>
+    <text x="445" y="80" fill="#64748b" font-family="'Inter', sans-serif" font-weight="700" font-size="14" text-anchor="middle">05</text>
+    <!-- Locker 6 -->
+    <rect x="500" y="0" width="90" height="260" rx="4" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <rect x="515" y="20" width="60" height="6" rx="2" fill="#475569"/>
+    <rect x="515" y="32" width="60" height="6" rx="2" fill="#475569"/>
+    <circle cx="570" cy="130" r="5" fill="#fd761a"/>
+    <text x="545" y="80" fill="#64748b" font-family="'Inter', sans-serif" font-weight="700" font-size="14" text-anchor="middle">06</text>
+  </g>
+  <!-- Pure RO Water Waterdrop Graphic on right side -->
+  <circle cx="710" cy="320" r="35" fill="#0284c7" opacity="0.3"/>
+  <path d="M710 295 C710 295 685 330 685 345 C685 358 696 368 710 368 C724 368 735 358 735 345 C735 330 710 295 710 295 Z" fill="#38bdf8"/>
+  <text x="710" y="390" fill="#38bdf8" font-family="'Inter', sans-serif" font-weight="700" font-size="11" text-anchor="middle">RO WATER</text>
+
+  <!-- Title Badge -->
+  <rect x="230" y="70" width="340" height="56" rx="28" fill="#0d1c32" stroke="#fd761a" stroke-width="2"/>
+  <text x="400" y="106" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#ffffff" text-anchor="middle" letter-spacing="4">LOCKERS &amp; RO WATER</text>
+  <text x="400" y="145" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#94a3b8" text-anchor="middle">PRIVATE BAY • ALKALINE CHILLED HYDRATION</text>
+</svg>
