@@ -99,3 +99,4 @@ LORDSGYM WEBSITE/
 └── frontend-react/      # Preserved React CRA application
 ```
 "# LORDSGYM-WEBSITE" 
+"# lords-gym-website" 
